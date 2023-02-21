@@ -34,5 +34,5 @@ SourceTreeメニューの「ツール」＞「オプション」＞「認証」�
 
 
 ## 参考サイト
-[GitHub ActionsでHello World](https://qiita.com/Teach/items/d2c4d7bec98228df1807)
-[SourceTreeでGitHubのPersonal access tokensを利用する方法](https://zenn.dev/koushikagawa/articles/3c35e503c8553a)
+- [GitHub ActionsでHello World](https://qiita.com/Teach/items/d2c4d7bec98228df1807)
+- [SourceTreeでGitHubのPersonal access tokensを利用する方法](https://zenn.dev/koushikagawa/articles/3c35e503c8553a)
