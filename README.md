@@ -2,7 +2,7 @@
 GitHub ActionsでHello World
 
 ## SourceTreeでリモートへのプッシュがエラーになる場合
-1. GitHub：スコープ設定とトークン取得
+### 1. GitHub：スコープ設定とトークン取得
 
 githubログイン ＞ 右上メニューの「Settings」＞ サイドバー「Developer settings」＞ サイドバー「Personal access token」＞ サイドバー「 tokens (classic)」を選択
 
@@ -15,7 +15,8 @@ githubログイン ＞ 右上メニューの「Settings」＞ サイドバー「
 - Expiration（有効期限）： no expiration
 - Select scopes：「repo」、「workflow」、「 user」を選択
 
-2. SourceTree（Windeow10）：ユーザ認証
+
+### 2. SourceTree（Windows10）：ユーザ認証
 
 SourceTreeメニューの「ツール」＞「オプション」＞「認証」タブ ＞「追加」を選択
 
