@@ -3,6 +3,7 @@ name: Hello World
 on:
   workflow_dispatch:
 
+# Hello worldを表示する
 jobs:
   say_hello:
     runs-on: ubuntu-latest
