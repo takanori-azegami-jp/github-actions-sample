@@ -1,5 +1,5 @@
 # github-actions-sample
-GitHub ActionsでHello World
+GitHub Actions サンプル
 
 ## SourceTreeでリモートへのプッシュがエラーになる場合
 ### 1. GitHub：スコープ設定とトークン取得

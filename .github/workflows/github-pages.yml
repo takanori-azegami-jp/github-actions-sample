@@ -1,0 +1,27 @@
+name: GitHub Pages
+
+on:
+  workflow_dispatch:
+
+# Lighthouseレポートを出力する
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install lighthouse
+        run: sudo npm i -g lighthouse
+
+      - name: Run lighthouse
+        run: |
+          lighthouse \
+            --chrome-flags="--headless" \
+            --output html --output-path ./report.html \
+            'https://takanori-azegami-jp.github.io/'
+
+      - name: Upload result
+        uses: actions/upload-artifact@master
+        with:
+          name: report
+          path: report.html
